@@ -5,7 +5,7 @@ import os
 import requests
 
 # ============== CONFIG ==============
-RTSP_URL = "rtsp://admin:admin%40123@172.16.0.98:554/ch01/1"
+RTSP_URL = "rtsp://username:password@ip:port/stream"
 RECORD_FOLDER = "api_recordings"
 os.makedirs(RECORD_FOLDER, exist_ok=True)
 
