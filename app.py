@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True)
 
 # ===== CONFIG =====
-RTSP_URL = "rtsp://admin:Admin%40123@172.16.0.150:554/ch01/1"
+RTSP_URL = "rtsp://username:password@ip:port/stream"
 RECORD_FOLDER = "api_recordings"
 RTSP_TRANSPORT = "tcp"
 
